@@ -37,7 +37,8 @@ install: [
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/JsAst"]
 depends: [
   "ocaml" {>= "4.08.0"}
-  "rocq-prover" { >= "9.1.0" }
+  "rocq-core" { >= "9.0.0" }
+  "rocq-stdlib" { >= "9.0.0" }
 ]
 
 tags: [ "keyword:javascript" "keyword:compiler" "date:2020-07-29" "logpath:JsAst" ]
